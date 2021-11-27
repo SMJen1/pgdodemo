@@ -1,0 +1,123 @@
+    1  21-Nov-2021 14:42:03 sudo su
+    2  27-Nov-2021 04:43:59 whoami
+    3  27-Nov-2021 04:44:04 date
+    4  27-Nov-2021 04:44:06 pwd
+    5  27-Nov-2021 04:54:14 ls
+    6  27-Nov-2021 04:54:44 touch mysecretfile.txt
+    7  27-Nov-2021 04:55:17 lsls 
+    8  27-Nov-2021 04:55:19 ls
+    9  27-Nov-2021 04:55:46 mkdir mysecretfolder
+   10  27-Nov-2021 04:55:48 ls 
+   11  27-Nov-2021 04:56:45 cd mysecretfolder/
+   12  27-Nov-2021 04:56:55 ls
+   13  27-Nov-2021 04:57:03 pwd
+   14  27-Nov-2021 04:57:46 cd ..
+   15  27-Nov-2021 04:57:49 pwd
+   16  27-Nov-2021 04:58:50 cd 
+   17  27-Nov-2021 04:59:38 cd ~
+   18  27-Nov-2021 05:00:02 cd /home/
+   19  27-Nov-2021 05:00:07 pwd
+   20  27-Nov-2021 05:00:12 ls
+   21  27-Nov-2021 05:00:29 useradd keerti
+   22  27-Nov-2021 05:00:45 ls
+   23  27-Nov-2021 05:01:02 sudo useradd keerti
+   24  27-Nov-2021 05:01:19 ls
+   25  27-Nov-2021 05:01:27 cd
+   26  27-Nov-2021 05:01:30 cd /home/
+   27  27-Nov-2021 05:01:31 ls
+   28  27-Nov-2021 05:01:44 cat /etc/passwd | grep keerti
+   29  27-Nov-2021 05:01:48 id keerti
+   30  27-Nov-2021 05:01:53 sudo ls
+   31  27-Nov-2021 05:02:03 ls
+   32  27-Nov-2021 05:02:05 cd
+   33  27-Nov-2021 05:02:13 ls
+   34  27-Nov-2021 05:02:18 cd /home/
+   35  27-Nov-2021 05:02:20 pwd
+   36  27-Nov-2021 05:02:41 cd ..
+   37  27-Nov-2021 05:02:43 pwd
+   38  27-Nov-2021 05:02:58 ls
+   39  27-Nov-2021 05:03:12 pwd
+   40  27-Nov-2021 05:03:55 id 
+   41  27-Nov-2021 05:04:15 cd
+   42  27-Nov-2021 05:04:16 ls
+   43  27-Nov-2021 05:04:50 cat > mysecretfile.txt 
+   44  27-Nov-2021 05:05:13 cat mysecretff
+   45  27-Nov-2021 05:05:17 cat mysecretfile.txt 
+   46  27-Nov-2021 05:05:30 cat >> mysecretfile.txt 
+   47  27-Nov-2021 05:06:18 cat mysecretfile.txt 
+   48  27-Nov-2021 05:06:55 vi mysecretfile.txt 
+   49  27-Nov-2021 05:10:23 cat mysecretfile.txt
+   50  27-Nov-2021 05:11:53 echo " I am creating a demo file" > demo.txt
+   51  27-Nov-2021 05:12:04 cat demo.txt 
+   52  27-Nov-2021 05:13:00 apt-get install git 
+   53  27-Nov-2021 05:13:08 sudo apt-get install git 
+   54  27-Nov-2021 06:07:28 ls 
+   55  27-Nov-2021 06:07:32 cd mysecretfolder/
+   56  27-Nov-2021 06:07:32 ls
+   57  27-Nov-2021 06:08:00 touch student1 student2 student3
+   58  27-Nov-2021 06:08:02 ll
+   59  27-Nov-2021 06:08:39 sudo groupadd newbatch 
+   60  27-Nov-2021 06:09:00 chown newbatch student3
+   61  27-Nov-2021 06:09:18 cat /etc/group | newbatch 
+   62  27-Nov-2021 06:09:22 sudo cat /etc/group | newbatch 
+   63  27-Nov-2021 06:09:31 cat /etc/passwd
+   64  27-Nov-2021 06:09:39 ls -l 
+   65  27-Nov-2021 06:12:22 chmod 777 student
+   66  27-Nov-2021 06:12:26 sudo chmod 777 student
+   67  27-Nov-2021 06:12:30 sudo chmod 777 student3
+   68  27-Nov-2021 06:12:33 ls -l 
+   69  27-Nov-2021 06:14:56 mkdir suhas
+   70  27-Nov-2021 06:15:00 ls -l 
+   71  27-Nov-2021 06:19:47 chmod 667 student1
+   72  27-Nov-2021 06:19:49 ls -l 
+   73  27-Nov-2021 06:25:34 history 
+   74  27-Nov-2021 06:42:16 ksajkldakhjdhldakhdakh
+   75  27-Nov-2021 06:42:31 history 
+   76  27-Nov-2021 06:43:05 56
+   77  27-Nov-2021 06:43:09 history
+   78  27-Nov-2021 06:43:21 ls
+   79  27-Nov-2021 10:25:56 uname -a
+   80  27-Nov-2021 10:26:05 cat /etc/issue
+   81  27-Nov-2021 14:54:41 ls
+   82  27-Nov-2021 14:55:09 mkdir demoscm
+   83  27-Nov-2021 14:55:12 cd demoscm/
+   84  27-Nov-2021 14:55:13 ls
+   85  27-Nov-2021 14:56:11 git clone https://github.com/javeedsocial/myrepos.git
+   86  27-Nov-2021 14:56:17 ls
+   87  27-Nov-2021 14:56:21 cd myrepos/
+   88  27-Nov-2021 14:56:22 ls
+   89  27-Nov-2021 14:56:26 cat index.html 
+   90  27-Nov-2021 15:01:24 ls
+   91  27-Nov-2021 15:01:28 cd ..
+   92  27-Nov-2021 15:01:29 ls
+   93  27-Nov-2021 15:01:30 pwd
+   94  27-Nov-2021 15:02:05 git clone https://github.com/javeedsocial/pgdodemo.git
+   95  27-Nov-2021 15:02:08 ls
+   96  27-Nov-2021 15:05:36 cd pgdodemo/
+   97  27-Nov-2021 15:05:37 ls
+   98  27-Nov-2021 15:05:57 touch pgnotes.txt
+   99  27-Nov-2021 15:06:03 cat >> pgnotes.txt 
+  100  27-Nov-2021 15:06:16 cat pgnotes.txt 
+  101  27-Nov-2021 15:07:32 git init 
+  102  27-Nov-2021 15:07:37 ls -a
+  103  27-Nov-2021 15:07:47 ls
+  104  27-Nov-2021 15:08:53 git add *
+  105  27-Nov-2021 15:08:58 git add .
+  106  27-Nov-2021 15:09:03 git add pgnotes.txt 
+  107  27-Nov-2021 15:09:05 ls
+  108  27-Nov-2021 15:09:11 git status
+  109  27-Nov-2021 15:09:54 git commit -m "I am committing changes these some meaning message"
+  110  27-Nov-2021 15:10:18 git status
+  111  27-Nov-2021 15:10:30 git push 
+  112  27-Nov-2021 16:09:09 ls
+  113  27-Nov-2021 16:09:19 touch pgnotes2.txt
+  114  27-Nov-2021 16:09:45 cat >> pgnotes2.txt 
+  115  27-Nov-2021 16:09:55 git status
+  116  27-Nov-2021 16:10:15 git commit -m "Second commit in progress"
+  117  27-Nov-2021 16:10:33 git commit -m "Secondfile in progress"
+  118  27-Nov-2021 16:10:40 git status
+  119  27-Nov-2021 16:10:48 git add . 
+  120  27-Nov-2021 16:11:01 git commit -m "Secondfile in progress"
+  121  27-Nov-2021 16:11:08 git push 
+  122  27-Nov-2021 16:13:30 history 
+  123  27-Nov-2021 16:17:20 history >> Lessondump1.txt
